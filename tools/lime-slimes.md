@@ -1,17 +1,4 @@
----
-layout: page
-nav_order: 2
-parent: Applications and Variants
----
 
-# L,i,me-Slimes
-{:.no_toc}
-
-## Table of contents
-{:.no_toc}
-
-* TOC
-{:toc}
 
 ![Logo](https://i.gyazo.com/7941d6748db107002712ad53378ea480.png)
 
@@ -46,12 +33,18 @@ parent: Applications and Variants
 - Less units to charge
 - More SLIME!
 
-# Github and download link
+
+
+
+# V Github and download link V
 You can access more information and get the latest L,i,me updates on _https://github.com/Loler920a/L.i.me-Slimes_
+
+
 
 # FAQ
 
 - **Can I use this with other standard slime trackers?**
+
 Yes, yes you can
 
 - **This is my first time soldering or doing DIY with electronics, is this ok for me to build?**
@@ -60,31 +53,37 @@ If you have confidence that you can or learn to splice cables cables together, t
 Thats probably the hardest thing in a standard slime build as well, though you will be doing it more with L,i,me.
 
 - **Can I convert my standard slimes into L,i,me's**
+
 Yes, in fact I converted my previous slimes into this. Though you may want to change the battery and switch
 
 - **I don't have enough IMU's can I add them later?**
+
 Yes you can in fact start off at minimum 6 IMU's and addon the other IMU's later. Please be sure to plan ahead
 
 - **When will the elbow and shoulder tracking addon be available?**
+
 When I finish testing and can confirm there are no issues
 
 - **When will the Neck tracking addon be available?**
+
 When I get to it
 
 - **Can I lie down, roll or whatever on the tracker and its extensions?**
+
 Sure go ahead, you will find nothing will prevent you from doing so
 
 - **The IMU I want to use is not listed what do I do?**
+
 You can contact me on the slimevr discord and ask me to model the 3D files for you
 
 - **I have an issue**
+
 You can ask on the slimevr discord for help or from me if you like
 
 - **Where is the L,i,me software?**
+
 There is none, L,i,me is exclusively a hardware solution and will work seemlessly with slime
 
 - **What are the octoslime files?**
+
 WIP models to support octoslime. These are currently only for show, although are technically usable
-
-
-*Created by @Smeltie#1999 & @Loler920a-Frank#2590*
