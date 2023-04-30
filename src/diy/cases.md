@@ -170,12 +170,12 @@ Modified, refined and with a few feature additions by Rosdayle
      src="https://i.gyazo.com/c4d2c2d755fe7071e20aec6d61c44aa6.png"
      alt="Case">
 
-* D1 Mini ESP microcontroller
+* D1 Mini ESP8266 microcontroller
 * DPDT 2P2T Power Switch
 * BMI160
 * TP4056 USB-C charging module
-* 603450 1100mah lithium ion cell or Smaller than 51x34x6mm
-* Go pro style chest harnes
+* Supports 603450 1100mAh and 804040 1800mAh Lipo
+* Go pro style chest harness
 
 [Thingiverse](https://www.thingiverse.com/thing:5815469)
 
