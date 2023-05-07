@@ -175,7 +175,9 @@ Modified, refined and with a few feature additions by Rosdayle
 * BMI160
 * TP4056 USB-C charging module
 * 603450 1100mah lithium ion cell or Smaller than 51x34x6mm
+* 804040 1200mAh/1800mAh lithium ion cell or smaller than 40x40x8mm
 * Go pro style chest harnes
+* x2 straps for thigh tracker retention (Stops sliding down)
 
 [Thingiverse](https://www.thingiverse.com/thing:5815469)
 
