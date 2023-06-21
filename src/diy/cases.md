@@ -164,7 +164,7 @@ Design by Lixulia
 ## Minted Arcturus by Rosdayle
 Base design by Lixulia
 
-Modified, refined and with a few feature additions by Rosdayle
+Modified, refined and up-to-date with a few feature additions by Rosdayle
 
 <img class="caseImage"
      src="https://i.gyazo.com/c4d2c2d755fe7071e20aec6d61c44aa6.png"
@@ -174,8 +174,8 @@ Modified, refined and with a few feature additions by Rosdayle
 * DPDT 2P2T Power Switch
 * BMI160
 * TP4056 USB-C charging module
-* 603450 1100mah lithium ion cell or Smaller than 51x34x6mm
-* Go pro style chest harnes
+* 804040 1200mAh lithium ion cell and 603450 1100mah lithium ion cell
+* Go pro style chest harness
 
 [Thingiverse](https://www.thingiverse.com/thing:5815469)
 
