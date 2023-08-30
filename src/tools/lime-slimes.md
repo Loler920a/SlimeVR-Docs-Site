@@ -1,4 +1,5 @@
-# L,i,me-Slimes
+# L,i,me-Slimes {outdated}
+DM Rosdayle for BETA version
 
 ![Logo](../assets/img/limeSlimeLogo.png)
 
