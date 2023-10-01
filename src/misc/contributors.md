@@ -24,7 +24,7 @@ They are the best of the best!
 * [Vyolex](https://github.com/Vyolex)
 * [frosty6742](https://github.com/frosty6742)
 * [TheDevMinerTV](https://github.com/TheDevMinerTV)
-* [Loler920a](https://github.com/Loler920a)
+* [Rosdayle](https://github.com/Rosdayle)
 * [TheButlah](https://github.com/TheButlah)
 * [AtlasThePro](https://github.com/AtlasTheProto)
 * Uriel ([ImUrX](https://github.com/ImUrX))
