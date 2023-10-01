@@ -1,6 +1,8 @@
 # Components Guide
 
 The costs shown should be taken as a **rough approximation** due to prices changing over time. Prices are in USD.
+The components table shown below is a suggestive guide of what to source
+For those 3D printing cases designed by the community, note they will dictate your selection of batteries, IMU and power switches
 
 ## Calculate Your Costs
 **Number of trackers**
