@@ -175,12 +175,12 @@ Modified, refined and with a few feature additions by Rosdayle
 
 * D1 Mini ESP microcontroller.
 * DPDT 2P2T Power Switch.
-* BMI160.
+* BMI160 (Or similar BMI footprint)
 * TP4056 USB-C charging module.
 * 603450 1100mah lithium-ion cell or Smaller than 51x34x6mm.
 * Go pro style chest harness.
 
-[Thingiverse](https://www.thingiverse.com/thing:5815469)
+[Printables](https://www.printables.com/model/647109-minted-arcturus-slimevr-diy-standard-parts)
 
 
 *Thanks to the community for being so awesome and creating so many designs!*
