@@ -38,19 +38,21 @@ They are reliable and stable chips, but at the time of writing, they remain diff
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i>
 
 |Pros          |Cons                                   |
-|--------------|---------------------------------------|
-|Accurate      |Expensive                              |
-|Reliable      |Extra wiring required compared to MPUs |
-|Smooth        |                                       |
+|-----------------------|---------------------------------------|
+|Accurate               |Expensive                              |
+|Reliable               |Extra wiring required compared to MPUs |
+|Smooth                 |                                       |
+|Built-in Magnetometer  |                                       |
 
 > Please note, if you are looking for BNO085s SlimeVR may have [spares for sale that can be found here](https://shop.slimevr.dev/products/slimevr-imu-module-bno085).
+`Comment: This can be known by other names BNO08x.The x being a placeholder for 0, 5 and 6. And commonly referred to as BNOs`
 
 ---
 ## BMI160
 The BMI160 is the current go-to IMU for DIY SlimeVR.
 It is a relatively new chip with decent performance and good reliability.
 
-It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be used,
+It does not have a magnetometer, but external chips such as QMC5883L/HMC5883L can be added alongside it,
 in the same way [as with MPU](#mpuqmc5883l). Like any other setup with magnetometers, this is highly experimental.
 Reset times and yaw accuracy with a magnetometer will depend on your build quality and magnetic environment.
 
@@ -97,8 +99,8 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 `Comment: Prone to some drift when moving really fast (in 6DoF mode).`
 
 ---
-## MPU9250
-The MPU9250 (currently ran in several modes) is a newer installment of the MPU lineup.
+## MPU9250~~
+The MPU9250 (currently ran in several modes) is a newer instalment of the MPU lineup.
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
@@ -119,8 +121,10 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 This is a highly experimental setup that approximately matches an MPU9250.
 Unlike other IMUs which consist of a single PCB, this instead relies on connecting a magnetometer to an MPU6050 or MPU6500.
 That being said, a breakout board which includes both an MPU6050 and an HMC5883L does exist: the GY-87.
-Both the QMC5883L and HMC5883L may be used, however, the QMC5883L may potentially perform better.
-
+Both the QMC5883L and HMC5883L magnetometers may be used, however, the QMC5883L may potentially perform better.
+Be aware of needing extra room to fit the QMC/HMC board
+Magnetometer requires a stable magnetic environment
+ 
 
 |Reset time |Cost  |Availability|Build quality|
 |:---------:|:----:|:----------:|:-----------:|
@@ -138,14 +142,14 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 `Comment: Requires experimental firmware.`
 
 ---
-## BNO055
+## BNO055~~
 Earlier version of the BNO085 without stabilisation firmware.
 
 *This chip does not have sufficient test results for a conclusive summary.*
 
 |Reset time |Cost |Availability|Build quality|
 |:---------:|:---:|:----------:|:-----------:|
-|1 -10 min  |~$38 |Mediocre    |Good         |
+|1 -10 min  |~$38 |Insufficient|Good         |
 
 Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o" ></i><i class="fa fa-star-o" ></i>
 
@@ -155,10 +159,11 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 |Available                      |Can supposedly lose tracking with rapid motion|
 |Smooth                         |Insufficient testing                          |
 
-`Comment: Insufficient testing for a accurate description, but cannot compete with BNO085.`
+`Comment: Insufficient testing for an accurate description, but cannot compete with BNO085.`
+`Comment: Best to pick the BNO085 for superior performance for = or lower cost.`
 
 ---
-## MPU6500
+## ~~MPU6500~~
 The MPU6500 is the middle ground of the MPU chips available.
 The drift time of this IMU may be a slight improvement over the MPU6050.
 
@@ -175,10 +180,11 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"
 |Smooth           |Failure rate inconsistent               |
 |                 |Calibration on each start               |
 
-`Comment: Tracking slightly better than the MPU6050.`
+~~`Comment: Tracking slightly better than the MPU6050.`~~
+`Comment: The MPU IMUs alone are no longer viable. Please pick another`
 
 ---
-## MPU6050
+## ~~MPU6050~~
 The MPU6050 will get you started with SlimeVR for cheap.
 
 |Reset time |Cost  |Availability|Build quality|
@@ -193,7 +199,8 @@ Score: <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-
 |High availability|High failure rate         |
 |                 |Calibration on each start |
 
-`Comment: Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.`
+~~`Comment: Order more than you need because of the higher failure rate, it is not uncommon to find 2 to 3 bad chips in a batch.`~~
+`Comment: The MPU IMUs alone are no longer viable. Please pick another`
 
 ---
 # Addendum
